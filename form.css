@@ -46,7 +46,7 @@ body {
     color: #333;
 }
 
-.form :where (.input-box input, .select-box) {
+.form :where(.input-box input, .select-box) {
     position: relative;
     height: 50px;
     width: 100%;
@@ -73,6 +73,10 @@ body {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 8px;
+}
+
+.gender input{
+    accent-color:  rgb(88, 56, 250);
 }
 
 .form :where(.gender-option, .gender) {
